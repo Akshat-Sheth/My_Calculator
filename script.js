@@ -270,7 +270,7 @@ const addPeriod = (string) => {
         }
     }
     else{
-        if(!string.include('.')){
+        if(!string.includes('.')){
             return string+= '.'
         }
     }
